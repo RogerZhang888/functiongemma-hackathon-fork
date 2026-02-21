@@ -16,7 +16,7 @@ from data import main_list
 
 model = cactus_init(functiongemma_path)
 n_samples = 1
-n_embd = 768
+n_embd = 640
 n_features = 10
 
 messages, tools_list, num_tools, labels = extract_from_main_list(main_list)
